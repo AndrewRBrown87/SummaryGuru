@@ -1,5 +1,11 @@
 Summary Guru is a Single Page App that uses OpenAI to intelligently summarize articles, movies and books.
 
+## Screenshots
+
+!["Home View"](/docs/home.png)
+!["Loading View"](/docs/loading.png)
+!["Content View"](/docs/content.png)
+
 ## Getting Started
 
 First, run the development server:
