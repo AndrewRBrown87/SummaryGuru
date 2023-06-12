@@ -130,7 +130,13 @@ export default function Home() {
               <br />
               <OneWordReview oneWordReview={oneWordReview} />
               <br />
-              <SimilarContent similarContent={similarContent} />
+              <SimilarContent 
+                similarContent={similarContent}
+                searchType={searchState}
+                onSubmit={setSearchIdState}
+                setGuruCognating={setGuruCognating}
+                sessionID={sessionID}
+              />
             </div>
           </div>
           <Material
